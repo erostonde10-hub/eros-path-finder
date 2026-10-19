@@ -1,0 +1,535 @@
+{
+ "country": "CONFIGURE: set your country and verify all entries",
+ "groups": [
+  {
+   "id": "sci",
+   "n": "Sciences",
+   "e": "🔬",
+   "h": "Maths, natural sciences and computing",
+   "g1": "#0f766e",
+   "g2": "#0ea5e9",
+   "s": [
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Computer Science"
+   ]
+  },
+  {
+   "id": "com",
+   "n": "Commercials",
+   "e": "📈",
+   "h": "Business, money and markets",
+   "g1": "#b45309",
+   "g2": "#f59e0b",
+   "s": [
+    "Accounting",
+    "Business Studies",
+    "Economics"
+   ]
+  },
+  {
+   "id": "art",
+   "n": "Arts & Humanities",
+   "e": "🎭",
+   "h": "Language, society and creativity",
+   "g1": "#9d174d",
+   "g2": "#ec4899",
+   "s": [
+    "Literature in English",
+    "History",
+    "Geography",
+    "Art & Design",
+    "Languages"
+   ]
+  },
+  {
+   "id": "bld",
+   "n": "Building & Technical",
+   "e": "🏗️",
+   "h": "Design, drawing and construction",
+   "g1": "#4338ca",
+   "g2": "#8b5cf6",
+   "s": [
+    "Technical Graphics",
+    "Design & Technology",
+    "Building Technology"
+   ]
+  },
+  {
+   "id": "prc",
+   "n": "Agriculture & Practical",
+   "e": "🌱",
+   "h": "Food, farming, health and movement",
+   "g1": "#15803d",
+   "g2": "#84cc16",
+   "s": [
+    "Agriculture",
+    "Food & Nutrition",
+    "Physical Education"
+   ]
+  }
+ ],
+ "programmes": [
+  {
+   "n": "Medicine & Surgery",
+   "g": "sci",
+   "s": [
+    "Biology",
+    "Chemistry"
+   ],
+   "e": "🩺",
+   "t": "Heal people. Lead in the hospital.",
+   "m": "Few careers let you change a life before lunch. If you love Biology and Chemistry, you’re already speaking medicine’s language.",
+   "p": [
+    "Deep purpose and respect",
+    "Strong demand and income",
+    "Many specialties to grow into"
+   ],
+   "c": [
+    "Long study (6+ years)",
+    "Very competitive entry",
+    "Heavy hours and pressure"
+   ],
+   "j": [
+    "Doctor",
+    "Surgeon",
+    "Medical researcher"
+   ],
+   "d": {
+    "study": "Years 1–2: anatomy, physiology and biochemistry. Years 3–6: hospital rotations in surgery, medicine, paediatrics and obstetrics, then a supervised internship before full registration.",
+    "entry": "Usually A-Levels in Biology and Chemistry at top grades, plus a third subject (often Maths or Physics). Many universities add an interview or aptitude test.",
+    "cost": "Among the most expensive programmes: tuition plus equipment and living costs. Look for loans, bursaries and scholarships.",
+    "dur": "About 6 years, plus 1–2 years of internship.",
+    "where": "A small number of university medical schools in most countries.",
+    "comp": "Very high. Far more applicants than places, so strong grades and a backup plan matter.",
+    "day": "Ward rounds, patient consultations, procedures and emergencies, then notes and teaching. Long hours and some night shifts.",
+    "sal": "Among the best-paid professions in the long run, but junior doctors earn modestly while training.",
+    "suits": "Caring, resilient, curious people who stay calm under pressure and enjoy lifelong learning.",
+    "alt": "Nursing, clinical officer, pharmacy, medical laboratory science or biomedical science. You can often upgrade later or move into health leadership."
+   }
+  },
+  {
+   "n": "Engineering",
+   "g": "sci",
+   "s": [
+    "Mathematics",
+    "Physics"
+   ],
+   "e": "⚙️",
+   "t": "Turn physics into bridges, power and machines.",
+   "m": "Engineers build the world everyone else lives in. Maths and Physics give you the tools; the degree gives you the blueprint.",
+   "p": [
+    "Excellent job options worldwide",
+    "Hands-on and creative problem solving",
+    "Many branches: civil, electrical, mechanical"
+   ],
+   "c": [
+    "Maths-heavy coursework",
+    "Demanding workload",
+    "Fees can be high"
+   ],
+   "j": [
+    "Civil engineer",
+    "Electrical engineer",
+    "Project manager"
+   ],
+   "d": {
+    "study": "Year 1: maths, physics and engineering basics. Later you specialise (civil, electrical, mechanical, chemical) with design projects, labs and an industrial attachment.",
+    "entry": "Usually A-Levels in Mathematics and Physics at good grades. Further Maths or Chemistry can help.",
+    "cost": "Mid to high; labs and project materials add cost. Industry sponsorships and bursaries exist.",
+    "dur": "About 4–5 years including an industrial placement.",
+    "where": "Universities and polytechnics. Check that the programme is accredited by the national engineering body.",
+    "comp": "Moderate to high, depending on the institution and branch.",
+    "day": "Design and calculations, site or lab visits, team meetings and solving practical problems within deadlines and budgets.",
+    "sal": "Good and growing with experience, higher in specialised or international roles.",
+    "suits": "People who like maths, building things and solving practical problems.",
+    "alt": "Engineering technician diploma then bridge to the degree, technical college routes, or related fields such as surveying, computing or architectural technology."
+   }
+  },
+  {
+   "n": "Computer Science",
+   "g": "sci",
+   "s": [
+    "Mathematics",
+    "Computer Science"
+   ],
+   "e": "💻",
+   "t": "Build the apps and AI everyone will use.",
+   "m": "Every industry now runs on software. Learn to build it and you can work anywhere, even for yourself.",
+   "p": [
+    "High demand and pay",
+    "Remote and freelance friendly",
+    "Easy to start building early"
+   ],
+   "c": [
+    "Fast-changing skills",
+    "Can mean long screen time",
+    "Competitive entry-level market"
+   ],
+   "j": [
+    "Software developer",
+    "Data scientist",
+    "Cybersecurity analyst"
+   ]
+  },
+  {
+   "n": "Nursing & Health Sciences",
+   "g": "sci",
+   "s": [
+    "Biology",
+    "Chemistry"
+   ],
+   "e": "💉",
+   "t": "Care at the heart of every health system.",
+   "m": "Nurses are the people patients remember. If you want meaningful work with real job security, this is a path with heart.",
+   "p": [
+    "Shorter route into healthcare",
+    "Jobs are always in demand",
+    "Room to specialise or study further"
+   ],
+   "c": [
+    "Emotionally and physically tiring",
+    "Shift work",
+    "Modest starting salary"
+   ],
+   "j": [
+    "Registered nurse",
+    "Midwife",
+    "Public health officer"
+   ]
+  },
+  {
+   "n": "Accounting & Finance",
+   "g": "com",
+   "s": [
+    "Accounting",
+    "Mathematics",
+    "Economics"
+   ],
+   "e": "🧮",
+   "t": "Be the person every business trusts with the numbers.",
+   "m": "Every company needs someone who understands money. Master it and you’ll never be short of doors to open.",
+   "p": [
+    "Strong, stable demand",
+    "Clear professional qualifications",
+    "Can lead to CFO or own firm"
+   ],
+   "c": [
+    "Detail-heavy, repetitive tasks",
+    "Busy audit seasons",
+    "Extra exams after the degree"
+   ],
+   "j": [
+    "Accountant",
+    "Auditor",
+    "Financial analyst"
+   ],
+   "d": {
+    "study": "Financial and management accounting, auditing, taxation, business law, economics and finance, plus data and software skills.",
+    "entry": "Often A-Level Accounting, Mathematics, Economics or Business Studies at a solid grade. Good English helps.",
+    "cost": "Moderate for the degree. Professional exams (ACCA, CIMA, chartered accountancy) cost extra and are often supported by employers.",
+    "dur": "About 3–4 years, then 2–3 years of professional training.",
+    "where": "Most universities and business schools, with many part-time and professional routes.",
+    "comp": "Moderate. Many graduates, so good results and internships stand out.",
+    "day": "Preparing and checking financial records, analysing budgets, audit work at client offices and advising managers.",
+    "sal": "Stable and rising as you qualify; chartered qualifications raise it considerably.",
+    "suits": "Organised, detail-minded people who like numbers and want a stable, in-demand career.",
+    "alt": "Professional accounting certificates (ACCA, CIMA, AAT) studied directly, business or banking diplomas, or related degrees in economics or business."
+   }
+  },
+  {
+   "n": "Business Management",
+   "g": "com",
+   "s": [
+    "Business Studies",
+    "Economics"
+   ],
+   "e": "💼",
+   "t": "Lead teams, launch ideas, run organisations.",
+   "m": "If you’re the one who organises people and spots opportunities, this is where leaders are made.",
+   "p": [
+    "Flexible, many industries",
+    "Great base for entrepreneurship",
+    "Builds leadership and people skills"
+   ],
+   "c": [
+    "Broad, so you must specialise",
+    "Many graduates compete",
+    "Results depend on experience"
+   ],
+   "j": [
+    "Manager",
+    "Entrepreneur",
+    "Operations lead"
+   ]
+  },
+  {
+   "n": "Economics",
+   "g": "com",
+   "s": [
+    "Economics",
+    "Mathematics"
+   ],
+   "e": "🌍",
+   "t": "Understand why economies rise and fall.",
+   "m": "Economists shape policy, banks and nations. If you love asking why, you’ll love this.",
+   "p": [
+    "Respected analytical training",
+    "Opens banking, policy and research",
+    "Strong maths and data skills"
+   ],
+   "c": [
+    "Theory-heavy",
+    "Can feel abstract",
+    "Needs strong maths"
+   ],
+   "j": [
+    "Economist",
+    "Policy analyst",
+    "Bank analyst"
+   ]
+  },
+  {
+   "n": "Law",
+   "g": "art",
+   "s": [
+    "Literature in English",
+    "History"
+   ],
+   "e": "⚖️",
+   "t": "Argue, defend and shape justice.",
+   "m": "If you read closely, argue well and care about fairness, Law turns those strengths into a career with real influence.",
+   "p": [
+    "Respected, influential profession",
+    "Many paths: court, business, policy",
+    "Builds sharp thinking and speech"
+   ],
+   "c": [
+    "Heavy reading and writing",
+    "Competitive to qualify",
+    "Long hours early on"
+   ],
+   "j": [
+    "Lawyer",
+    "Legal adviser",
+    "Magistrate"
+   ]
+  },
+  {
+   "n": "Journalism & Media",
+   "g": "art",
+   "s": [
+    "Literature in English",
+    "History",
+    "Art & Design"
+   ],
+   "e": "🎙️",
+   "t": "Tell the stories that matter.",
+   "m": "Voices that inform and inspire are always needed. If you love words and curiosity, start here.",
+   "p": [
+    "Creative, varied daily work",
+    "Digital media widens options",
+    "Meet and learn from many people"
+   ],
+   "c": [
+    "Unstable early income",
+    "Tight deadlines",
+    "Competitive entry"
+   ],
+   "j": [
+    "Journalist",
+    "Content producer",
+    "Communications officer"
+   ]
+  },
+  {
+   "n": "Education (Teaching)",
+   "g": "art",
+   "s": [
+    "Literature in English",
+    "History",
+    "Geography"
+   ],
+   "e": "🍎",
+   "t": "Shape the next generation.",
+   "m": "One good teacher can change a life. If you enjoy explaining and encouraging others, this is a calling with lasting impact.",
+   "p": [
+    "Meaningful, stable career",
+    "Shorter degree route",
+    "Holidays and community respect"
+   ],
+   "c": [
+    "Modest pay in many places",
+    "Large classes",
+    "Marking and admin load"
+   ],
+   "j": [
+    "Teacher",
+    "Head of department",
+    "Education officer"
+   ]
+  },
+  {
+   "n": "Graphic & Digital Design",
+   "g": "art",
+   "s": [
+    "Art & Design",
+    "Technical Graphics"
+   ],
+   "e": "🎨",
+   "t": "Make ideas look unforgettable.",
+   "m": "Brands, apps and campaigns all need people who can see beauty and solve problems visually. Your creativity is a skill.",
+   "p": [
+    "Creative work you can show off",
+    "Freelance and remote friendly",
+    "Portfolio matters more than grades"
+   ],
+   "c": [
+    "Subjective client feedback",
+    "Income varies early on",
+    "Always learning new tools"
+   ],
+   "j": [
+    "Graphic designer",
+    "UI/UX designer",
+    "Art director"
+   ]
+  },
+  {
+   "n": "Architecture",
+   "g": "bld",
+   "s": [
+    "Art & Design",
+    "Technical Graphics",
+    "Mathematics"
+   ],
+   "e": "🏛️",
+   "t": "Design the places people live and dream in.",
+   "m": "Architects blend art and engineering to shape cities. Draw it, then see it built.",
+   "p": [
+    "Creative and technical combined",
+    "Your work becomes landmarks",
+    "Respected, licensed profession"
+   ],
+   "c": [
+    "Long study and licensing",
+    "Long studio hours",
+    "Slow early-career pay"
+   ],
+   "j": [
+    "Architect",
+    "Urban planner",
+    "Interior designer"
+   ]
+  },
+  {
+   "n": "Construction & Quantity Surveying",
+   "g": "bld",
+   "s": [
+    "Technical Graphics",
+    "Building Technology",
+    "Mathematics",
+    "Design & Technology"
+   ],
+   "e": "🏗️",
+   "t": "Manage the projects that build nations.",
+   "m": "Roads, homes and towers all need people who can plan, cost and deliver. If you like seeing things get built, this is yours.",
+   "p": [
+    "Strong demand with growth",
+    "Practical, site-based work",
+    "Good pay with experience"
+   ],
+   "c": [
+    "Outdoor, physically demanding",
+    "Project pressure and deadlines",
+    "Industry rises and falls"
+   ],
+   "j": [
+    "Quantity surveyor",
+    "Construction manager",
+    "Site engineer"
+   ]
+  },
+  {
+   "n": "Agriculture & Agribusiness",
+   "g": "prc",
+   "s": [
+    "Agriculture",
+    "Biology"
+   ],
+   "e": "🌾",
+   "t": "Feed communities and build farming businesses.",
+   "m": "Food is the most important industry there is. Combine science with business and you can lead it.",
+   "p": [
+    "Essential, always needed",
+    "Start your own enterprise",
+    "Mix of science and business"
+   ],
+   "c": [
+    "Weather and market risk",
+    "Often rural work",
+    "Slow return on investment"
+   ],
+   "j": [
+    "Agronomist",
+    "Farm manager",
+    "Agribusiness officer"
+   ]
+  },
+  {
+   "n": "Food Science & Nutrition",
+   "g": "prc",
+   "s": [
+    "Food & Nutrition",
+    "Chemistry",
+    "Biology"
+   ],
+   "e": "🥗",
+   "t": "Make food healthier, safer and tastier.",
+   "m": "What people eat shapes their health. Be the expert behind it, in hospitals, labs or your own brand.",
+   "p": [
+    "Growing health awareness",
+    "Lab, clinic or food industry",
+    "Mix of science and creativity"
+   ],
+   "c": [
+    "Lab-based coursework",
+    "Fewer jobs in some regions",
+    "Needs registration for dietetics"
+   ],
+   "j": [
+    "Dietitian",
+    "Food technologist",
+    "Nutrition consultant"
+   ]
+  },
+  {
+   "n": "Sports Science",
+   "g": "prc",
+   "s": [
+    "Physical Education",
+    "Biology"
+   ],
+   "e": "🏅",
+   "t": "Turn your love of sport into a career.",
+   "m": "Athletes need science behind them. Study how bodies perform and help others reach their best.",
+   "p": [
+    "Work with athletes and teams",
+    "Fitness and wellness boom",
+    "Active, energising work"
+   ],
+   "c": [
+    "Few elite roles",
+    "Modest early pay",
+    "Seasonal contracts"
+   ],
+   "j": [
+    "Fitness coach",
+    "Physiotherapy assistant",
+    "Sports analyst"
+   ]
+  }
+ ]
+}

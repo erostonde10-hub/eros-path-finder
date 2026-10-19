@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>EROS Path Finder – Find the programme your A-Level subjects lead to</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f4;--card:#fff;--tx:#1b1a18;--mu:#6d6a63;--bd:#e7e3d9;--pro:#1f7a4d;--pros:#e3f3ea;--con:#b0432b;--cons:#fbe9e4;--hd:Fraunces,Georgia,serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141311;--card:#1f1e1b;--tx:#efece4;--mu:#a29e94;--bd:#34322c;--pro:#6fd39b;--pros:#173325;--con:#f09a82;--cons:#3a211b}}
+:root[data-theme="dark"]{--bg:#141311;--card:#1f1e1b;--tx:#efece4;--mu:#a29e94;--bd:#34322c;--pro:#6fd39b;--pros:#173325;--con:#f09a82;--cons:#3a211b}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.hero{background:linear-gradient(135deg,#1e3a8a,#7c3aed 55%,#ec4899);color:#fff;padding:44px 20px 56px;text-align:center;position:relative;overflow:hidden}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.12)}
+.hero:before{width:260px;height:260px;left:-80px;top:-90px}.hero:after{width:200px;height:200px;right:-60px;bottom:-90px}
+.hero>*{position:relative}
+h1{font:700 clamp(28px,6vw,42px)/1.15 var(--hd);margin:0 0 10px}.hero p{max-width:540px;margin:0 auto;opacity:.92;font-size:17px}
+.logo{font-weight:600;letter-spacing:.12em;font-size:13px;text-transform:uppercase;opacity:.85;margin-bottom:14px}
+main{max-width:860px;margin:-30px auto 0;padding:0 14px 110px;position:relative}
+.step{font:600 22px var(--hd);margin:26px 4px 12px}.step small{display:block;font:400 14px Inter,sans-serif;color:var(--mu)}
+.grp{background:var(--card);border:1px solid var(--bd);border-radius:18px;margin-bottom:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.gh{display:flex;align-items:center;gap:12px;padding:14px 16px;background:linear-gradient(135deg,var(--g1),var(--g2));color:#fff}
+.gh .em{font-size:28px}.gh b{display:block;font-size:17px}.gh span{font-size:13px;opacity:.9}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px}
+.chip{border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);padding:9px 16px;border-radius:99px;cursor:pointer;font:inherit;font-size:15px;transition:.15s}
+.chip.on{background:var(--g1);border-color:var(--g1);color:#fff;transform:scale(1.04)}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:12px 14px calc(12px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--bd);z-index:5}
+.go{display:block;max-width:860px;margin:0 auto;width:100%;border:0;border-radius:14px;padding:15px;font:600 17px Inter,sans-serif;color:#fff;background:linear-gradient(135deg,#1e3a8a,#7c3aed,#ec4899);cursor:pointer}
+.go:disabled{opacity:.45;cursor:not-allowed}
+.sum{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:18px;margin-bottom:6px}
+.sum h2{font:700 24px var(--hd);margin:0 0 6px}.mu{color:var(--mu);font-size:14px}
+.sec{display:flex;align-items:center;gap:10px;margin:30px 4px 12px;font:700 22px var(--hd)}.sec small{font:400 14px Inter,sans-serif;color:var(--mu);display:block}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:20px;overflow:hidden;margin-bottom:18px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+.img{height:170px;background:linear-gradient(135deg,var(--g1),var(--g2));position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.img:before,.img:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.15)}
+.img:before{width:190px;height:190px;left:-50px;top:-70px}.img:after{width:140px;height:140px;right:-30px;bottom:-60px}
+.img .big{font-size:78px;position:relative;filter:drop-shadow(0 6px 10px rgba(0,0,0,.25))}
+.badge{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.95);color:#222;font-weight:600;font-size:13px;padding:5px 12px;border-radius:99px}
+.body{padding:18px}.body h3{font:700 24px var(--hd);margin:0}.tg{color:var(--mu);margin:2px 0 12px}
+.mot{border-left:4px solid var(--g1);padding:4px 0 4px 14px;margin:0 0 16px;font-size:16.5px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:560px){.two{grid-template-columns:1fr}}
+.pc{border-radius:14px;padding:12px 14px}.pc h4{margin:0 0 6px;font-size:14px}.pc ul{margin:0;padding-left:18px;font-size:14.5px}.pc li{margin:3px 0}
+.pr{background:var(--pros)}.pr h4{color:var(--pro)}.cn{background:var(--cons)}.cn h4{color:var(--con)}
+.lbl{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);margin:16px 0 6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:13px;padding:4px 11px;border-radius:99px;border:1px solid var(--bd);background:var(--bg)}
+.tag.y{background:var(--g1);color:#fff;border-color:var(--g1)}
+.back{background:none;border:1px solid var(--bd);color:var(--tx);padding:9px 16px;border-radius:10px;font:inherit;cursor:pointer;margin-top:12px}
+.fab{position:fixed;right:14px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:6;border:0;border-radius:99px;padding:12px 18px;font:600 15px Inter,sans-serif;color:#fff;background:linear-gradient(135deg,#1e3a8a,#7c3aed,#ec4899);box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer}
+.ask{margin-top:16px;width:100%;border:0;border-radius:12px;padding:12px;font:600 15px Inter,sans-serif;color:#fff;background:var(--g1);cursor:pointer}
+#chat{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.45)}
+#chat.hide{display:none}
+.sheet{background:var(--card);width:100%;max-width:640px;height:min(78vh,640px);border-radius:20px 20px 0 0;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom,0px)}
+.sh{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid var(--bd);font:700 18px var(--hd)}
+.sh button{background:none;border:0;color:var(--tx);font-size:22px;cursor:pointer}
+#cm{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.m{max-width:88%;padding:10px 14px;border-radius:16px;white-space:pre-wrap;font-size:15.5px}
+.m.a{background:var(--bg);border:1px solid var(--bd);align-self:flex-start}.m.u{background:#7c3aed;color:#fff;align-self:flex-end}
+.cf{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--bd)}
+.cf input{flex:1;padding:12px;border-radius:12px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit}
+.cf button{border:0;border-radius:12px;padding:0 18px;background:#7c3aed;color:#fff;font-weight:600;cursor:pointer}
+.dl{padding-left:18px;font-size:14.5px}.dl li{margin:6px 0}.note{font-size:13px;color:var(--mu);margin:24px 4px}.hide{display:none}
+</style></head><body>
+<div class="hero"><div class="logo">🧭 EROS Path Finder</div><h1>Your A-Level subjects are the start of a bigger story.</h1><p>Pick the subjects you studied. We’ll show the university programmes they open the door to, and why each one could be your future.</p></div>
+<main>
+<section id="pick"><div class="step">1. Choose the subjects you studied<small>Tap every subject you took, across any group.</small></div><div id="groups"></div></section>
+<section id="out" class="hide"></section>
+<p class="note">Prototype: programmes, subject links and descriptions are sample content. Visuals are illustrated placeholders; real photos can be added in the full app. Always confirm entry requirements with the institution and talk to a human counsellor before big decisions.</p>
+</main>
+<button class="fab" id="fab">💬 Ask EROS</button>
+<div id="chat" class="hide"><div class="sheet"><div class="sh"><span id="ct">Ask EROS</span><button id="cx" aria-label="Close">✕</button></div><div id="cm"></div><div class="cf"><input id="ci" placeholder="Type your question…" autocomplete="off"><button id="cs">Send</button></div></div></div>
+<div class="bar" id="bar"><button class="go" id="go" disabled>Select your subjects to begin</button></div>
+<script>
+var G=[],P=[];var sel={};function $(i){return document.getElementById(i)}
+function paint(){$("groups").innerHTML=G.map(function(g){return '<div class="grp" style="--g1:'+g.g1+';--g2:'+g.g2+'"><div class="gh"><span class="em">'+g.e+'</span><div><b>'+g.n+'</b><span>'+g.h+'</span></div></div><div class="chips">'+g.s.map(function(s){return '<button class="chip'+(sel[s]?" on":"")+'" data-s="'+s+'">'+s+'</button>'}).join("")+'</div></div>'}).join("");
+ var n=Object.keys(sel).length;$("go").disabled=!n;$("go").textContent=n?"Show my programmes ("+n+" subject"+(n>1?"s":"")+")":"Select your subjects to begin"}
+$("groups").onclick=function(e){var s=e.target.getAttribute("data-s");if(!s)return;if(sel[s])delete sel[s];else sel[s]=1;paint()};
+function match(p){var h=p.s.filter(function(x){return sel[x]}).length;return h/p.s.length}
+function show(){var n=Object.keys(sel).length,html="",total=0;
+ G.forEach(function(g){var list=P.filter(function(p){return p.g===g.id&&match(p)>0}).sort(function(a,b){return match(b)-match(a)});if(!list.length)return;total+=list.length;
+  html+='<div class="sec" style="--g1:'+g.g1+';--g2:'+g.g2+'"><span style="font-size:30px">'+g.e+'</span><div>'+g.n+' programmes<small>'+list.length+' match your subjects</small></div></div>'+list.map(function(p){return card(p,g)}).join("")});
+ $("out").innerHTML='<div class="sum"><h2>Your future has '+total+' doors open.</h2><div class="mu">Based on the '+n+' subjects you chose, here are the programmes they connect to, grouped by field. The strongest matches come first.</div><button class="back" id="back">← Change my subjects</button></div>'+html;
+ $("pick").classList.add("hide");$("bar").classList.add("hide");$("out").classList.remove("hide");window.scrollTo(0,0);
+ $("back").onclick=function(){$("out").classList.add("hide");$("pick").classList.remove("hide");$("bar").classList.remove("hide");window.scrollTo(0,0)}}
+function det(p){var d=p.d;if(!d)return "";return '<div class="lbl">Full details</div><ul class="dl">'+[["What you’ll study",d.study],["Entry requirements (typical, confirm with the institution)",d.entry],["Typical cost",d.cost],["Duration",d.dur],["Where to study",d.where],["How competitive",d.comp],["A day in the career",d.day],["Salary outlook",d.sal],["Who it suits",d.suits],["Alternative routes",d.alt]].map(function(x){return "<li><b>"+x[0]+":</b> "+x[1]+"</li>"}).join("")+'</ul>'}
+function card(p,g){var m=match(p),b=m===1?"⭐ Strong match":m>=.5?"Good match":"Possible match";
+ return '<div class="card" style="--g1:'+g.g1+';--g2:'+g.g2+'"><div class="img"><span class="big">'+p.e+'</span><span class="badge">'+b+'</span></div><div class="body"><h3>'+p.n+'</h3><div class="tg">'+p.t+'</div><p class="mot">'+p.m+'</p><div class="two"><div class="pc pr"><h4>👍 Advantages</h4><ul>'+p.p.map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul></div><div class="pc cn"><h4>⚠️ Things to think about</h4><ul>'+p.c.map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul></div></div><div class="lbl">Key subjects (yours are highlighted)</div><div class="tags">'+p.s.map(function(x){return '<span class="tag'+(sel[x]?" y":"")+'">'+(sel[x]?"✓ ":"")+x+'</span>'}).join("")+'</div><div class="lbl">Where it can take you</div><div class="tags">'+p.j.map(function(x){return '<span class="tag">'+x+'</span>'}).join("")+'</div>'+det(p)+'<button class="ask" data-ask="'+p.n+'">💬 Ask EROS about this programme</button></div></div>'}
+var chat=[],ctx="",busy=false;
+function addMsg(r,t){var d=document.createElement("div");d.className="m "+r;d.textContent=t;$("cm").appendChild(d);$("cm").scrollTop=1e9;return d}
+function openChat(prog){ctx=prog||"";chat=[];$("cm").innerHTML="";$("ct").textContent=prog?"Ask EROS: "+prog:"Ask EROS";
+ addMsg("a",prog?"Hi, I’m EROS! Ask me anything about "+prog+": what you’ll study, entry requirements, costs, jobs or other routes in. No question is too small.":"Hi, I’m EROS, your guidance assistant! Ask me about any programme, subject combination or career, and I’ll explain it clearly.");
+ $("chat").classList.remove("hide");$("ci").focus()}
+async function send(){var q=$("ci").value.trim();if(!q||busy)return;$("ci").value="";addMsg("u",q);chat.push({role:"user",content:q});busy=true;var out=addMsg("a","…");
+ try{var r=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:chat,programme:ctx,subjects:Object.keys(sel)})});
+  var d=await r.json();if(!r.ok)throw new Error(d.error||"error");out.textContent=d.reply;chat.push({role:"assistant",content:d.reply})}
+ catch(e){out.textContent="Sorry, I couldn’t answer that right now. Please try again in a moment.";chat.pop()}
+ busy=false}
+$("out").addEventListener("click",function(e){var a=e.target.getAttribute("data-ask");if(a)openChat(a)});
+$("fab").onclick=function(){openChat("")};$("cx").onclick=function(){$("chat").classList.add("hide")};
+$("cs").onclick=send;$("ci").addEventListener("keydown",function(e){if(e.key==="Enter")send()});
+$("go").onclick=show;paint();
+fetch("programmes.json").then(function(r){return r.json()}).then(function(d){G=d.groups;P=d.programmes;paint()}).catch(function(){$("groups").innerHTML='<p class="mu">Could not load programme data.</p>'});
+</script></body></html>
